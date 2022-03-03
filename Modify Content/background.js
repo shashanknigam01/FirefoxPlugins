@@ -22,6 +22,6 @@ function listener(details) {
 
 browser.webRequest.onBeforeRequest.addListener(
   listener,
-  {urls: ["https://resources.digital-cloud.medallia.com/wdcus/40640/onsite/generic1646044320511.js"], types: ["script"]},
+  {urls: ["https://at.com/"], types: ["script"]},
   ["blocking"]
 );
